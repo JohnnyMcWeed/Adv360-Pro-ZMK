@@ -1,0 +1,13 @@
+  // chqtilde: chq_tilde_deg {
+  //   compatible = "zmk,behavior-mod-morph";
+  //   #binding-cells = <0>;
+  //   bindings = <&kp CH_TILD>, <&kp CH_DEG>;
+  //   mods = <(MOD_LSFT|MOD_RSFT)>;
+  // };
+  
+  // chq: chq_ {
+  //   compatible = "zmk,behavior-mod-morph";
+  //   #binding-cells = <0>;
+  //   bindings = <&kp CH_>, <&kp CH_>;
+  //   mods = <(MOD_LSFT|MOD_RSFT)>;
+  // };

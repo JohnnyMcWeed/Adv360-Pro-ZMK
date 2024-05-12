@@ -1,0 +1,132 @@
+  chddllr: chddllr {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_DLR>, <&kp TILDE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdamps: chdamps {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_AMPR>, <&kp CH_PERC>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdlbkt: chd_left_bracket_7 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_LBRC>, <&kp N7>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdlbrc: chd_left_brace_5 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_LCBR>, <&kp N5>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdrbrc: chd_right_brace_3 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_RCBR>, <&kp N3>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdlpar: chd_left_parenthesis_1 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_LPRN>, <&kp N1>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdequal: chd_equal_9 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_EQL>, <&kp N9>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdastrk: chd_asterisk_0 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_ASTR>, <&kp N0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdrpar: chd_right_parenthesis_2 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_RPRN>, <&kp N2>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdplus: chd_plus_4 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_PLUS>, <&kp N4>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdrbkt: chd_right_bracket_6 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_RBRC>, <&kp N6>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdexcl: chd_exclamation_8 {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_EXLM>, <&kp N8>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdhash: chd_hash_grave {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_HASH>, <&kp CH_GRV>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdsemi: chd_semi_colon {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_SEMI>, <&kp CH_COLN>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdcomma: chd_comma_less {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_COMM>, <&kp CH_LABK>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chddot: chd_dot_greater {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_DOT>, <&kp CH_RABK>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdslsh: chd_slash_question {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_SLSH>, <&kp CH_QUES>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdat: chd_at_caret {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_AT>, <&kp CH_CIRC>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdbsls: chd_backslash_pipe {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_BSLS>, <&kp CH_PIPE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdquot: chd_quote_dquote {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_QUOT>, <&kp CH_DQUO>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chdeur: chd_euro_cent {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_EURO>, <&kp CH_CENT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  chddiae: chd_diaeresis_cedille {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp CH_DIAE>, <&kp CH_CCED>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
